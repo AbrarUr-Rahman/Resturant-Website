@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600&display=swap");
-
+body{
+  background-color: #8aa6ca;
+}
 * {
   font-family: "Oswald", sans-serif;
   box-sizing: border-box;
@@ -10,6 +12,7 @@
 ::-webkit-scrollbar{
   display: none;
 }
+
 
 /********************** HERO SECTION COMPONENT STYLING **************************/
 /**********************************************************************************************************************/
@@ -693,6 +696,7 @@ nav svg {
   justify-content: center;
   align-items: center;
   min-height: 80vh;
+  background-color: rgb(204, 221, 178);
 }
 .who_are_we .container {
   max-width: 1500px;
